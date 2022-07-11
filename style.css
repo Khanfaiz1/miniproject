@@ -1,0 +1,105 @@
+#logo {
+    width: 70px;
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+#links {
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    padding: 5px;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    color: black;
+}
+
+.btn:hover {
+    color: red;
+    background-color: blue;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#image {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: auto;
+}
+
+#image1 {
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: auto;
+}
+
+#asidebar {
+    width: 200px;
+    height: 300px;
+    background-color: darkgray;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    margin-left: 30px;
+}
+
+#doc {
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+#ipsum {
+    background-color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#footbar {
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+}
+
+.static {
+    margin-top: 30px;
+    color: whitesmoke;
+    margin-left: 80px;
+}
+
+#lorem {
+    width: 300px;
+    height: 100px;
+    color: white;
+    margin-left: 30px;
+}
+
+#mini {
+    color: white;
+    margin-right: 10px;
+}
+
+#contact {
+    color: white;
+    margin-right: 30px;
+}
+
+#item {
+    color: white;
+}
