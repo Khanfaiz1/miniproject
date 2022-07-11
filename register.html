@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Static product site</title>
+    <style>
+        .forms {
+            background-image: url('https://neilpatel.com/wp-content/uploads/2015/04/ecommerce.jpg');
+            min-height: 420px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 50px 0px;
+            padding: 0px;
+            text-align: center;
+            align: center;
+        }
+        
+        #rbtn:hover {
+            color: red;
+            background-color: green;
+        }
+        
+        h1 {
+            color: red;
+            margin: 50px 0px;
+            padding: 0px;
+            text-align: center;
+            align: center;
+        }
+        
+        .head {
+            background-color: black;
+        }
+        
+        .foot {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <header>
+            <h1><b><i>This is a Registeration form for new customers </i></b></h1>
+        </header>
+    </div>
+    <div>
+        <form action="">
+            <div class="forms">
+                <h1><b><i>Registeration Form</i></b></h1>
+                <label for="firstname"><b><i>FirstName : </i></b></label>
+                <input type="text" id="firstname" name="firstname" required><br><br>
+
+                <label for="middlename"><b><i>MiddleName : </i></b></label>
+                <input type="text" id="middlename" name="middlename"><br><br>
+
+                <label for="lasstname"><b><i>LastName : </i></b></label>
+                <input type="text" id="lastname" name="lastname" required><br><br>
+
+                <legend><b><i>Gender : </i></b></legend>
+                <label for="male"><b><i>Male : </i></b></label>
+                <input type="radio" name="gender" id="male" value="male" checked><br>
+                <label for="female"><b><i>Female : </i></b></label>
+                <input type="radio" name="gender" id="female" value="female"><br>
+                <label for="others"><b><i>Others : </i></b></label>
+                <input type="radio" name="gender" id="others" value="others"><br><br>
+                <!-- <label for="age">Age : </label>
+                <input type="number" id="age" name="age" required><br><br> -->
+
+                <label for="dob"><b><i>DOB : </i></b></label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="email"><b><i>Email : </i></b></label>
+                <input placeholder="example@email.com" id="email" name="email" required><br><br>
+
+                <label for="phone"><b><i>Phone No : </i></b></label>
+                <input placeholder="+91" id="phone" name="Phone" required><br><br>
+
+                <label for="password"><b><i>Password : </i></b></label>
+                <input placeholder="password" id="password" name="password" required><br><br>
+
+                <label for="password"><b><i>Confirm Password : </i></b></label>
+                <input placeholder="confirm password" id="confirm password" name="confirm password" required><br><br>
+
+                <input id="sbtn" type="reset" value="reset">
+                <input type="submit" value="submit">
+            </div>
+            <div class="foot">
+                <h1>its only for newly customers</h1>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
